@@ -1,30 +1,19 @@
 <?php
-/**
- * @copyright Copyright (c) 2013-2019 2amigOS! Consulting Group LLC
- * @link http://2amigos.us
- * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
- */
-namespace dosamigos\ckeditor;
+
+namespace chuzzlik\ckeditor;
 
 use yii\web\AssetBundle;
 
-/**
- * CKEditorWidgetAsset
- *
- * @author Antonio Ramirez <amigo.cobos@gmail.com>
- * @link http://www.ramirezcobos.com/
- * @link http://www.2amigos.us/
- * @package dosamigos\ckeditor
- */
+
 class CKEditorWidgetAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/2amigos/yii2-ckeditor-widget/src/assets/';
+    public $sourcePath = '@vendor/chuzzlik/yii2-ckeditor4/src/assets/';
 
     public $depends = [
-        'dosamigos\ckeditor\CKEditorAsset'
+        'chuzzlik\ckeditor\CKEditorAsset'
     ];
 
     public $js = [
-        'dosamigos-ckeditor.widget.js'
+        'chuzzlik-ckeditor.widget.js'
     ];
 }

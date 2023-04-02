@@ -4,7 +4,7 @@
  * @link http://www.nabi.ir
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\ckeditor;
+namespace chuzzlik\ckeditor;
 
 use yii\web\AssetBundle;
 
