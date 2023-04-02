@@ -18,14 +18,14 @@ trait CKEditorTrait
      * Defaults to 'standard'. It is important to note that any configuration item of the loaded presets can be
      * overrided by [[clientOptions]]
      */
-    public $preset = 'standard';
+    public $preset = 'full';
 
     /**
      * Enable or disable kcfinder
      * @link https://kcfinder.sunhater.com
      * @var boolean
      */
-    public $kcfinder = false;
+    public $kcfinder = true;
 
     /**
      * KCFinder dynamic settings (using session)
@@ -41,8 +41,8 @@ trait CKEditorTrait
      */
     public static $kcfDefaultOptions = [
         'disabled' => false,
-        'uploadURL' => '@web/upload',
-        'uploadDir' => '@webroot/upload',
+        'uploadURL' => '@frontend/upload',
+        'uploadDir' => '@frontend/upload',
         'denyZipDownload' => true,
         'denyUpdateCheck' => true,
         'denyExtensionRename' => true,
