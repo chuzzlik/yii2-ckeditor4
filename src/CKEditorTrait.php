@@ -25,7 +25,7 @@ trait CKEditorTrait
      * @link https://kcfinder.sunhater.com
      * @var boolean
      */
-    public $kcfinder = true;
+    public $kcfinder = false;
 
     /**
      * KCFinder dynamic settings (using session)
